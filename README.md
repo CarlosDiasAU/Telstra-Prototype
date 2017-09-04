@@ -1,2 +1,0 @@
-# Telstra-Prototype
-Application example
