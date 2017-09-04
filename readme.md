@@ -29,7 +29,7 @@ The data flow is as follows:
 - A device uses I2C temperature sensor and sends data to the AWS IoT periodically
 - An AWS IoT rule intercepts temperature data and stores it into the DynamoDB table
 - A device gets synchronised with its AWS IoT shadow
-- A frontend is running on AWS S3, talking to the device shadow to get the device state.
+- A front end is running on AWS S3, talking to the device shadow to get the device state.
 
 
 ## Design and Implementation Process 
